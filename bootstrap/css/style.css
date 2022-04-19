@@ -1,0 +1,120 @@
+.dropdown-item{
+	color:white;
+}
+.dropdown-menu{
+	background-color: #730909;
+}
+.navbar{
+	background-color: #730909;
+	padding: .8rem;
+}
+
+.navbar-nav li{
+	padding-right:20px;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	color: #222;
+	background-color: #f4f4f4;
+}
+
+.nav-link{
+	font-size: 1.1em, !important;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.jumbotron {
+	padding: 1rem;
+	border-right: 0;
+}
+
+.padding{
+	padding-bottom: 2rem.
+}
+ .wel{
+ 	width: 75%;
+ 	margin: 0 auto;
+ 	padding-top: 2rem;
+ }
+
+ .wel hr{
+ 	border-top: 2px solid #b4b4b4;
+ 	width: 95%;
+ 	margin-top: .3rem;
+ 	margin-bottom: 1rem;
+ }
+
+ footer{
+ 	background-color: #3f3f3f;
+ 	color: #d5d5d5;
+ 	padding-top: 2rem;
+ 	margin-top: 10px;
+ }
+
+ hr.light{
+ 	border-top: 1px solid #d5d5d5;
+ 	width: 75%;
+ 	margin-top: .8rem;
+ 	margin-bottom: 1rem;
+ }
+
+ /* css for the about page*/
+
+ .autt{
+ 	height: 35% auto;
+ 	width: 100%;
+ 	margin-bottom: 10px;
+ }
+
+ /* css for the news page*/
+.nw{
+	background-color: #bad6f2;
+	margin-bottom:
+}
+.pagination a{
+	background-color: #f4f4f4;
+	color:black;
+	border: none;
+
+}
+
+/*css for the eportal page*/
+.con{
+	background-color: white;
+width: 300px;
+height: 350px;
+border-color: #dddfe2;
+border-style: none;
+border-radius: 20px;
+box-shadow: 1px 1px 7px grey;
+padding-top: 7px;
+margin-bottom: 20px;
+}
+.input{
+width: 250px;
+height: 50px;
+border-color: #dddfe2;
+border: 2px;
+border-style: none;
+border-radius: 6px 6px 6px 6px;
+margin-left:25px;
+box-shadow: 1px 1px 7px grey;
+}
+label{
+	margin-left: 25px;
+	font-weight: bold;
+}
+.fbtn{
+	margin-left: 25px;
+}
+.fmrg{
+	margin-top: 25px; 
+}
+.rro{
+	margin-top: 100px;
+}
