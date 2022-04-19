@@ -1,100 +1,3 @@
-        /*for smartphones*/
-@media screen and (min-width: 320px) and (max-width: 414px)  {
-    body{
-        margin-top: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    #Bgrnd{
-        margin-left: -17px;
-        margin-right: 10px;
-        width: 340px;
-    }
-    .timg{
-        padding-left: 30px;
-    }
-    .numbtn{
-       margin: 2px;
-    }
-}
- /*for samsung galaxy s8+*/
-@media screen and (width: 360px)  {
-    body{
-        margin-top: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    #Bgrnd{
-        margin-left: -17px;
-        margin-right: 10px;
-        width: 340px;
-    }
-    .timg{
-        padding-left: 30px;
-    }
-    .numbtn{
-       margin: 1px;
-    }
-}
-
- /*for medium screens*/
-@media all and (min-width: 460px) and (max-width: 1024px)  {
-    body{
-        margin-left: -150px;
-    }
-    #Bgrnd{
-        margin-left: 230px;
-    }
-    .Bground{
-        height: 450px;
-        min-width: 400px;
-    }
-   
-    .timg{
-        padding-left: 65px;
-    }
-    .numbtn{
-       margin: 9px;
-    }
-}
- /*for samsung galaxy fold*/
-@media screen and (width: 280px) {
-    
-    .Bground{
-        margin-top: -100px;
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 370px;
-        height: 400px;
-    }
-    .timg{
-        padding-left: 30px;
-    }
-    .numbtn{
-       margin: 1px;
-       font-size: 10px;
-       padding: 10px 15px;
-    }
-}
- /*for small screen*/
-@media screen and (width: 320px) {
-    
-    .Bground{
-        margin-top: -50px;
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 370px;
-        height: 400px;
-    }
-    .timg{
-        padding-left: 30px;
-    }
-    .numbtn{
-       margin: 1px;
-       font-size: 10px;
-       padding: 10px 15px;
-    }
-}
 body{
     background-color: hsl(216, 12%, 8%);
     margin-top: 200px;
@@ -143,7 +46,7 @@ h4{
     box-shadow: 1px 1px 20px hsl(216, 12%, 8%);
     padding: 15px 20px;
     font-size: 13px;
-    margin:7px;
+    margin:5px;
 }
 
 /*the number rating hover action*/
