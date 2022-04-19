@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:(https://github.com/Akandeayo/Interactive-Rating-Component)
+- Solution URL:[Interactive-Rating-Component](https://github.com/Akandeayo/Interactive-Rating-Component)
 
 ## My process
 
@@ -50,4 +50,4 @@ i also learnt a lot of keywords working with javascript as this is my first usag
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Akandeayo)
+- Frontend Mentor - [@Akandeayo](https://www.frontendmentor.io/profile/Akandeayo)
