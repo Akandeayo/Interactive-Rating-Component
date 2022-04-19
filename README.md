@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:[Interactive-Rating-Component](https://github.com/Akandeayo/Interactive-Rating-Component)
+- Solution URL: [Interactive-Rating-Component](https://github.com/Akandeayo/Interactive-Rating-Component)
 
 ## My process
 
