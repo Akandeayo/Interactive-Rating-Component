@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <!--linking jquery, bootstrap and custom CSS-->
+    <script src="jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <!--end-->
+    <style>
+        /*for smartphones*/
+@media screen and (min-width: 320px) and (max-width: 414px)  {
+    body{
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #Bgrnd{
+        margin-left: -17px;
+        margin-right: 10px;
+        width: 340px;
+    }
+    .timg{
+        padding-left: 30px;
+    }
+    .numbtn{
+       margin: 2px;
+    }
+}
+ /*for samsung galaxy s8+*/
+@media screen and (width: 360px)  {
+    body{
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #Bgrnd{
+        margin-left: -17px;
+        margin-right: 10px;
+        width: 340px;
+    }
+    .timg{
+        padding-left: 30px;
+    }
+    .numbtn{
+       margin: 1px;
+    }
+}
+
+ /*for medium screens*/
+@media all and (min-width: 460px) and (max-width: 1024px)  {
+    body{
+        margin-left: -150px;
+    }
+    #Bgrnd{
+        margin-left: 230px;
+    }
+    .Bground{
+        height: 450px;
+        min-width: 400px;
+    }
+   
+    .timg{
+        padding-left: 65px;
+    }
+    .numbtn{
+       margin: 9px;
+    }
+}
+ /*for samsung galaxy fold*/
+@media screen and (width: 280px) {
+    
+    .Bground{
+        margin-top: -100px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 370px;
+        height: 400px;
+    }
+    .timg{
+        padding-left: 30px;
+    }
+    .numbtn{
+       margin: 1px;
+       font-size: 10px;
+       padding: 10px 15px;
+    }
+}
+ /*for small screen*/
+@media screen and (width: 320px) {
+    
+    .Bground{
+        margin-top: -50px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 370px;
+        height: 400px;
+    }
+    .timg{
+        padding-left: 30px;
+    }
+    .numbtn{
+       margin: 1px;
+       font-size: 10px;
+       padding: 10px 15px;
+    }
+}
+    </style>
+</head>
+
+<body onpageshow="disappear()" >
+    <div class="container">
+        <div class="row" id="rating">
+            <div class="col-4">
+
+            </div>
+            
+            <!--main column for code-->
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Bground p-4">
+                <!--row and colunm for the star image-->
+                <div class="row">
+                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 mb-4">
+                        <img src="icon-star.svg" alt="" class="starimg">
+                    </div>
+                </div>
+                <!-- end of row and colunm for the star image-->
+
+                <!--row and colunm for the texts-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-4">
+                        <h4>How did we do?</h4>
+                        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offerings!</p>
+                    </div>
+                </div>
+                <!-- end of row and colunm for the texts-->
+
+                <!--row and colunm for the rating numbers-->
+                    <div class="row">
+                        <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-4">
+                            <button id="rt-btn1" class="btn numbtn" onclick="rtFunc1()" value="1">1</button>
+                            <button id="rt-btn2" class="btn numbtn" onclick="rtFunc2()" value="2">2</button>
+                            <button id="rt-btn3" class="btn numbtn" onclick="rtFunc3()" value="3">3</button>
+                            <button id="rt-btn4" class="btn numbtn" onclick="rtFunc4()" value="4">4</button>
+                            <button id="rt-btn5" class="btn numbtn" onclick="rtFunc5()" value="5">5</button>
+                        </div>
+                    </div>
+                    <!--end of row and colunm for the rating numbers-->
+
+                    <!--row and colunm for the submit button-->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btnsubmit">
+                               <button class="btn subbtn" onclick="subBtn()">SUBMIT</button>
+                            <input type="hidden" id="storage" value="0"> 
+                           
+                        </div>
+                    </div>
+                    <!--end of row and colunm for the submit button-->
+            </div>
+            <!--end of main column for code-->
+
+            <div class="col-4">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!--begining of feedback page-->
+        <div class="row" id="feedback">
+            <div class="col-4">
+
+            </div>
+             <!--main column for code-->
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 Bground p-5" id="Bgrnd">
+                <!--row and colunm for the phone image-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pb-4">
+                        <img src="illustration-thank-you.svg" alt="" class="timg">
+                    </div>
+                </div>
+                 <!-- end of row and colunm for the phone image-->
+
+                <!--row and colunm for the number of ratings-->
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                        <p class="ratings">You selected <span id="newValue"></span> out of 5</p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <!--end row and colunm for the number of ratings-->
+
+                <!-- row and colunm for the texts-->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 thanks">
+                        <h4>Thank you!</h4>
+                        <p>We appreciate you for taking the time to give a rating.
+                            If you ever need more support, dont hesitate to get in touch!
+                        </p>
+                    </div>
+                </div>
+                <!-- end of row and colunm for the texts-->
+            </div>
+            <!--end of main column for code-->
+            <div class="col-4">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
